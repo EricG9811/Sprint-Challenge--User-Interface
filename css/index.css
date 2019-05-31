@@ -138,6 +138,9 @@ table {
     box-sizing: border-box;
 }
 
+/************************************
+* Home page and nav bar/footer
+*/
 html,
 body {
     height: 100%;
@@ -182,14 +185,6 @@ p {
     margin: 0 auto;
 }
 
-nav {
-    /*    width: 100%;*/
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
-
-}
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -198,7 +193,8 @@ nav {
     border-bottom: 1px dashed black;
 }
 
-.top-content img {
+.top-content img,
+.top-content-about {
     width: 100%;
     padding: 40px 0;
 }
@@ -308,3 +304,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/************************************
+* About page
+*/
+
+.top-content-about {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+
